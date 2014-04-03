@@ -10,8 +10,23 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        
         <?php
-        // put your code here
+        for($i = 1; $i<101; $i++)
+        {
+        if($i % 2 != 0)
+        {echo "<table>";
+        echo  " <tr>
+                <td>".$i."</td> <td>".date("m/d/Y")."</td>
+            </tr>";
+        }
+        else{
+        echo " <tr style ='background-color: silver';>
+                <td>".$i."</td> <td>".date("m/d/Y")."</td>
+            </tr>";
+        echo "</table>";
+        }
+        }
         ?>
     </body>
 </html>
