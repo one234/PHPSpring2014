@@ -1,0 +1,20 @@
+A few notes on my final project. 
+
+First, I borrowed most of your HTML and CSS to save me time to focus 
+on the PHP portion, so thank you for that.
+
+I included the extra credit display page when no website or an invalid 
+one is passed in the URL to the index page. The user is able to click "View" to be redirected
+to the index page with the information populated from the page the user chose.
+
+For the phone number validation I went with requiring a 10 digit int value since the database
+had a length limitation of 10.
+
+I did my best to comment the functions where applicable. I skipped commenting the 
+setters and getters as I felt they were self explanatory.
+
+If you run into any issues or have any questions, just let me know - jmkeyes@email.neit.edu
+
+Thanks!
+Josh
+
